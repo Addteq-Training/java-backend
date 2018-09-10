@@ -12,13 +12,14 @@ Initial setup required
 
 Steps
 -----
-
+0.  Fork this Repo
 1.  Download the attached text file usernames.txt that contains a list of usernames
 2.  Create a REST web service in Java that reads this file and  returns a valid JSON response with the list of users in a meaningful format.
 3.  For the web service created above, if we append  '/save' to the URI, the web service should persist the data from the file into the database and return a simple text response saying "Saved n usernames", where n is the number of usernames in the file. You can either use plain JDBC to save the data, or an ORM tool like Hibernate. (Bonus points for using an ORM tool)
 4.  Finally create another webservice say getUserNamesFromDB, which when called will retrieve all the usernames stored in the database at a given point of time.
 5.  Bonus points: What if we want to search for specific usernames stored in the database? Add a "filter" option to the web service getUserNamesFromDB so that the response only includes usernames that match this filter value. For example: If value passed in "filter" is "abc", it should only match usernames that contain "abc".
-6.  Share your results using tool like Postman or Curl
+6.  Share your results using tool like Postman or Curl and push your code into the forked repo
+7.  Finally send a PR to merge your code into this repo.
 
 Database
 --------
