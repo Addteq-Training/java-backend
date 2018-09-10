@@ -4,7 +4,7 @@ Initial setup required
 ----------------------
 
 -   Make sure you have a working environment with Java 8 installed
--   Use any IDE of your choice as well as the build tool (Maven, Gradle etc)
+-   Use any IDE of your choice as well as the build tool (Maven, Gradle etc). Also have a REST client like Postman installed to test your APIs developed.
 -   Use any web server of your choice
 -   You would also need access to the database (see the Database section below for details) and the necessary drivers
 -   You are free to choose the format of your REST endpoints (URIs)
