@@ -19,7 +19,7 @@ Steps
 4.  Finally create another webservice say getUserNamesFromDB, which when called will retrieve all the usernames stored in the database at a given point of time.
 5.  Bonus points: What if we want to search for specific usernames stored in the database? Add a "filter" option to the web service getUserNamesFromDB so that the response only includes usernames that match this filter value. For example: If value passed in "filter" is "abc", it should only match usernames that contain "abc".
 6.  Share your results using tool like Postman or Curl and push your code into the forked repo
-7.  Finally send a PR to merge your code into this repo.
+7.  Finally send a Pull Request to merge your code into this repo.
 
 Database
 --------
