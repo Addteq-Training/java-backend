@@ -25,8 +25,8 @@ Database
 --------
 
 - Connection details - make sure you have postgres client installed in your machine.
-- JDBC URL : postgres://zcxfobqy:sY06qww_01TI7aB2ORFNBOg4zw9r_SBF@stampy.db.elephantsql.com:5432/zcxfobqy
-- Password : ask for the password
+- JDBC URL (also contains the password) : Ask the interviewer for it.
+- The Users table already exists in the database and was created using the steps below:
 
 ```
 $ psql -h stampy.db.elephantsql.com -p 5432 -U zcxfobqy
