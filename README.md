@@ -12,7 +12,7 @@ Steps
 -----
 
 1.  Review the file usernames.txt that contains a list of usernames.
-2.  Create a REST web service in Java (Spring Boot) that reads this file and  returns a valid JSON response with the list of users in a meaningful format.
+2.  Create a REST web service in Java (Spring Boot or similar framework) that reads this file and  returns a valid JSON response with the list of users in a meaningful format.
 3.  For the web service created above, if we append  '/save' to the URI, the web service should persist the data from the file into the database and return a simple text response saying "Saved n usernames", where n is the number of usernames in the file. You can either use plain JDBC to save the data, or an ORM tool like Hibernate. (Bonus points for using an ORM tool)
 4.  Create another REST webservice say getUserNamesFromDB, which when called will retrieve all the usernames stored in the database at a given point of time.
 5.  Share your results using tool like Postman or Curl (available in the Terminal section).
